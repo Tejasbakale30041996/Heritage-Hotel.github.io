@@ -1,0 +1,4810 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3eee8;
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: 'Source Sans 3', sans-serif; */
+
+
+
+
+}
+
+::selection {
+    background-color: #c29a5c;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 730px;
+    margin: 0 auto;
+
+}
+
+.container3 {
+
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.header {
+
+    background: url(../../img/heritage-hotel-hero-img-bg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.header::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header .top-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .top-main .icon {
+
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.header .top-main .icon-twitter:hover {
+
+    color: #f3eee8;
+}
+
+.header .top-main .icon-facebook-circled:hover {
+
+    color: #f3eee8;
+}
+
+.header .top-main .icon-instagram:hover {
+
+    color: #f3eee8;
+}
+
+.header .top-main .icon span {
+
+    padding-right: 10px;
+}
+
+.header .top-main .logo img {
+
+    width: 150px;
+}
+
+.header .top-main .button .btn {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    padding: 13px 23px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.header .top-main .button .btn:hover {
+    background: #fff;
+    color: #c29a5c;
+}
+
+.header .nav {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+.header .nav ul li {
+    display: inline-block;
+    padding-right: 17px;
+
+}
+
+.header .nav ul li a {
+
+    text-decoration: none;
+    color: #cfd1d6;
+
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    transition: .2s linear;
+
+
+}
+
+.header .nav .home {
+    color: #fff;
+}
+
+.header .nav ul li a:hover:not(.home) {
+    color: #fff;
+}
+
+.header .content h5 {
+
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header .content h1 {
+
+    font-size: 128px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.raj-main {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    transform: translateY(50px);
+}
+
+.raj-main .paragraph p {
+
+    color: #6f716f;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 554px;
+    line-height: 1.5;
+}
+
+.raj-main .button .btn {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px 23px;
+    color: #c29a5c;
+    border: 1px solid #c29a5c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.raj-main .button .btn:hover {
+
+    background: #c29a5c;
+    color: #fff;
+}
+
+
+.about h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.about h1 {
+
+    color: #c29a5c;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+.about .divider {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.about p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-top: 20px;
+}
+
+.about .button .btn {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px 23px;
+    color: #c29a5c;
+    border: 1px solid #c29a5c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.about .button .btn:hover {
+
+    background: #c29a5c;
+    color: #fff;
+}
+
+.about .button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.immersive img {
+
+    width: 631px;
+    height: 540px;
+}
+
+
+
+
+.immersive h5 {
+
+    color: #c29a5c;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 15px;
+
+}
+
+.immersive h1 {
+
+    font-size: 48px;
+    color: #c29a5c;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.immersive h4 {
+
+    padding-bottom: 20px;
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    padding-left: 40px;
+    max-width: 487px;
+}
+
+.immersive p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-left: 40px;
+    line-height: 1.5;
+    max-width: 493px;
+    padding-bottom: 40px;
+}
+
+.immersive a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    padding-left: 40px;
+    transition: .2s linear;
+}
+
+.immersive a:hover {
+
+    color: #000;
+}
+
+.raj-vilas {
+    text-align: center;
+}
+
+.raj-vilas h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.raj-vilas h1 {
+
+    font-size: 64px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    color: #c29a5c;
+}
+
+.raj-vilas p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    max-width: 805px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+
+.deluxe {
+    background: url(../../img/heritage-hotel-room-suite-img-1.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 330px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.deluxe::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.deluxe h4 {
+
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.deluxe a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    transition: .2s linear;
+}
+
+.deluxe a:hover {
+
+    color: #fff;
+}
+
+.deluxe-room {
+
+    background: url(../../img/heritage-hotel-room-suite-img-2.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 330px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.deluxe-room::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: -1;
+
+
+}
+
+.deluxe-room h4 {
+
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.deluxe-room a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    transition: .2s linear;
+}
+
+.deluxe-room a:hover {
+
+    color: #fff;
+}
+
+.royal {
+
+    background: url(../../img/heritage-hotel-room-suite-img-3.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 779px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.royal::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: -1;
+
+
+}
+
+.royal h4 {
+
+
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.royal a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    transition: .2s linear;
+}
+
+.royal a:hover {
+
+    color: #fff;
+}
+
+.heritage {
+
+    background: url(../../img/heritage-hotel-room-suite-img-4.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 779px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.heritage::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.3;
+    z-index: -1;
+
+
+}
+
+.heritage h4 {
+
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.heritage a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    transition: .2s linear;
+
+}
+
+.heritage a:hover {
+
+    color: #fff;
+}
+
+.dining {
+
+    text-align: center;
+}
+
+.dining h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+
+    padding-top: 120px;
+    padding-bottom: 50px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.dining h1 {
+    color: #c29a5c;
+    max-width: 985px;
+    margin: 0 auto;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.3;
+    padding-bottom: 50px;
+}
+
+.dining img {
+
+    margin-bottom: 50px;
+}
+
+.special h1 {
+
+    font-size: 48px;
+    max-width: 432px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    color: #000;
+    line-height: 1.2;
+}
+
+.special p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+
+}
+
+.special .btn {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px 23px;
+    color: #c29a5c;
+    border: 1px solid #c29a5c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s linear;
+    margin-top: 30px;
+}
+
+.special .btn:hover {
+    background: #c29a5c;
+    color: #fff;
+}
+
+.food-img img {
+    width: 1263px;
+    height: 420px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.aminitie h1 {
+
+    color: #c29a5c;
+    font-size: 64px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.aminitie p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    padding-bottom: 80px;
+}
+
+.room-dining img {
+    width: 315px;
+    height: 480px;
+}
+
+.room-dining h1 {
+
+    color: #c29a5c;
+    font-size: 32px;
+    max-width: 240px;
+    line-height: 1.2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.room-dining p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    max-width: 224px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.room-dining a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #c29a5c;
+    transition: .2s linear;
+    padding-left: 40px;
+}
+
+.room-dining a:hover {
+
+    color: #000;
+}
+
+.design-img img {
+
+    width: 1263px;
+    height: 420px;
+}
+
+.local {
+    text-align: center;
+
+}
+
+.local h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.local h1 {
+
+    color: #c29a5c;
+    font-size: 64px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.local p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    max-width: 781px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.taj img {
+
+    width: 316px;
+    height: 211px;
+    cursor: pointer;
+}
+
+.taj h1 {
+
+    font-size: 32px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    color: #c29a5c;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-bottom: 200px;
+}
+
+.google-main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.google-main .icon span {
+
+    font-size: 50px;
+    color: #c29a5c;
+
+}
+
+.google-main .icon {
+    margin-top: 15px;
+}
+
+.google-main .google-content h1 {
+
+    font-size: 64px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    padding-left: 10px;
+}
+
+.google-main .google-content h5 {
+
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #5a5a5a;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+.google-main .google-content p {
+
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.footer .nav {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+.footer .nav ul li {
+    display: inline-block;
+    padding-right: 17px;
+
+}
+
+.footer .nav ul li a {
+
+    text-decoration: none;
+    color: #000;
+
+    font-weight: 400;
+    font-size: 15px;
+
+    text-transform: uppercase;
+    transition: .2s linear;
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.footer .nav ul li a:hover {
+    color: #c29a5c;
+}
+
+.footer-bottom-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-bottom-left p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+}
+
+.footer-bottom-icon span {
+
+    cursor: pointer;
+    font-size: 17px;
+    padding-right: 15px;
+    transition: .2s linear;
+}
+
+.footer-bottom-icon .icon-instagram:hover {
+
+    color: #c29a5c;
+}
+
+.footer-bottom-icon .icon-facebook-circled:hover {
+
+    color: #c29a5c;
+}
+
+.footer-bottom-icon .icon-youtube-play:hover {
+
+    color: #c29a5c;
+}
+
+.footer-bottom-icon .icon-twitter:hover {
+
+    color: #c29a5c;
+}
+
+.footer-bottom-right p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+}
+
+
+
+/* ====================================================== Style of History =================================================== */
+/* ====================================================== Style of History =================================================== */
+
+.history-header {
+
+    background-color: #c29a5c;
+    padding-top: 10px;
+
+}
+
+
+
+.history-header .top-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-header .top-main .icon {
+
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.history-header .top-main .icon-twitter:hover {
+
+    color: #f3eee8;
+}
+
+.history-header .top-main .icon-facebook-circled:hover {
+
+    color: #f3eee8;
+}
+
+.history-header .top-main .icon-instagram:hover {
+
+    color: #f3eee8;
+}
+
+.history-header .top-main .icon span {
+
+    padding-right: 10px;
+}
+
+.history-header .top-main .logo img {
+
+    width: 150px;
+}
+
+.history-header .top-main .button .btn {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    padding: 13px 23px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.history-header .top-main .button .btn:hover {
+    background: #fff;
+    color: #c29a5c;
+}
+
+.history-header .nav {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+
+.history-header .nav ul li {
+    display: inline-block;
+    padding-right: 17px;
+
+}
+
+.history-header .nav ul li a {
+
+    text-decoration: none;
+    color: #cfd1d6;
+
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    transition: .2s linear;
+
+
+}
+
+.history-header .nav .home {
+    color: #fff;
+}
+
+.history-header .nav ul li a:hover:not(.home) {
+    color: #fff;
+}
+
+.history-header .content h1 {
+
+    font-size: 128px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+
+
+.history-our {
+    text-align: center;
+}
+
+.history-our h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+
+.history-our h1 {
+
+    font-size: 64px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    color: #c29a5c;
+    line-height: 1.2;
+    max-width: 1126px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.history-our img {
+
+    margin-bottom: 50px;
+}
+
+.phasellus P {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.7;
+    max-width: 653px;
+    padding-top: 10px;
+
+}
+
+.phasellus .amet {
+    padding-bottom: 60px;
+}
+
+.history-img img {
+    width: 314px;
+    height: 210px;
+    margin-top: 40px;
+}
+
+.history-man-img img {
+
+    width: 362px;
+    height: 544px;
+    margin-bottom: 60px;
+}
+
+.history-door-img img {
+    width: 314px;
+    height: 472px;
+    margin-top: 40px;
+}
+
+.dictum p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.7;
+    max-width: 621px;
+    padding-top: 10px;
+}
+
+.histoty-euismod img {
+
+    width: 384px;
+    height: 576px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+.history-euismod p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.7;
+    max-width: 621px;
+    padding-top: 10px;
+}
+
+.history-euismod .cras {
+    padding-top: 60px;
+}
+
+.volutpat-content h5 {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    max-width: 383px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.volutpat-content h6 {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.volutpat-content p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.7;
+    max-width: 400px;
+}
+
+
+
+
+
+/* ========================================================= Style of Experience ============================================= */
+/* ========================================================= Style of Experience ============================================= */
+
+
+.exp-not h1 {
+
+    font-size: 64px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    color: #c29a5c;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.exp-not {
+
+    text-align: center;
+}
+
+
+
+.exp-immersive img {
+
+    width: 960px;
+    height: 640px;
+    margin-top: 50px;
+}
+
+.exp-immersive h6 {
+
+    color: #c29a5c;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.exp-immersive h1 {
+
+    color: #c29a5c;
+    font-size: 48px;
+    max-width: 229px;
+    line-height: 1.3;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.exp-immersive h5 {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 588px;
+}
+
+.exp-immersive p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    max-width: 587px;
+    padding-bottom: 40px;
+
+}
+
+.exp-immersive a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c29a5c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s linear;
+}
+
+.exp-immersive a:hover {
+
+    color: #000;
+}
+
+
+.exp-immersive .elite {
+
+    padding-top: 30px;
+}
+
+.exp-explore {
+    margin-bottom: 130px;
+}
+
+
+
+
+/* ============================================  Style of Room =================================================================== */
+/* ============================================  Style of Room =================================================================== */
+
+
+.room-raj {
+    text-align: center;
+}
+
+.room-raj h1 {
+
+    color: #c29a5c;
+    font-size: 64px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.room-raj p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    max-width: 795px;
+    margin: 0 auto;
+}
+
+.room-executive img {
+
+    width: 568px;
+    height: 378px;
+    margin-top: 60px;
+}
+
+
+.room-executive h1 {
+
+    font-size: 32px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.room-executive p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    line-height: 1.5;
+    max-width: 572px;
+    padding-bottom: 20px;
+}
+
+.room-space-main {
+
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.room-space-main .room-space-icon span {
+
+    color: #696f6c;
+}
+
+.room-space-main .room-space-content p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-left: 10px;
+}
+
+.room-book {
+    padding-top: 30px;
+}
+
+.room-book a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c29a5c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s linear;
+}
+
+.room-book a:hover {
+    color: #000;
+}
+
+.room-book-link {
+    padding-bottom: 200px;
+}
+
+
+/* =========================================================== Style of Dining ================================================= */
+/* =========================================================== Style of Dining ================================================= */
+
+
+
+.dining-gourmet {
+
+    text-align: center;
+}
+
+.dining-gourmet h1 {
+
+    font-size: 64px;
+    color: #c29a5c;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    padding-top: 110px;
+    padding-bottom: 20px;
+
+}
+
+.dining-gourmet p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-bottom: 30px;
+    max-width: 777px;
+    margin: 0 auto;
+
+}
+
+.dining-squre img {
+
+    width: 850px;
+    height: 480px;
+    margin-top: 60px;
+}
+
+
+.dining-squre-content {
+
+    background-color: #f3eee8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-top: 160px;
+    transform: translateX(-30px);
+
+}
+
+
+.dining-squre-content:hover {
+    box-shadow: 0 4px 8px 0 yellow, 0 6px 20px 0 yellow;
+
+}
+
+.dining-squre-content h1 {
+
+    color: #c29a5c;
+    font-size: 48px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.dining-squre-content p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    max-width: 495px;
+}
+
+.dining-squre-content a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #c29a5c;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s linear;
+}
+
+
+.dining-squre-content a:hover {
+
+    color: #000;
+}
+
+
+
+.dining-squre-terrace {
+
+    background-color: #f3eee8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-top: 160px;
+    transform: translateX(30px);
+    width: 600px;
+
+}
+
+
+.dining-squre-terrace:hover {
+    box-shadow: 0 4px 8px 0 yellow, 0 6px 20px 0 yellow;
+
+}
+
+.dining-squre-terrace h1 {
+
+    color: #c29a5c;
+    font-size: 48px;
+
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}
+
+.dining-squre-terrace p {
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696f6c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    max-width: 495px;
+}
+
+.dining-squre-terrace a {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #c29a5c;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .2s linear;
+}
+
+
+.dining-squre-terrace a:hover {
+
+    color: #000;
+}
+
+
+
+
+
+.dining-squre-terrace-img img {
+
+    width: 842px;
+    height: 480px;
+    margin-top: 60px;
+}
+
+
+.dining-squre-hotel-img {
+    margin-bottom: 200px;
+}
+
+
+/* =============================================  Style of Gallary============================================================ */
+/* =============================================  Style of Gallary============================================================ */
+
+
+.gallary-header-img img {
+
+    width: 378px;
+    height: 252px;
+    transform: translateY(100px);
+}
+
+.gallary-img img {
+
+    width: 378px;
+    height: 252px;
+    margin-top: 120px;
+}
+
+.gallary-middle-img img {
+
+    width: 378px;
+    height: 252px;
+    margin-top: 20px;
+}
+
+
+.gallary-bottom-img {
+
+    margin-bottom: 150px;
+}
+
+
+/* ====================================================== Style of Contact ===================================================== */
+/* ====================================================== Style of Contact ===================================================== */
+
+
+.contact-map {
+    text-align: center;
+}
+
+.contact-map .contact-map-icon span {
+
+    color: #c29a5c;
+    font-size: 30px;
+
+}
+
+.contact-map .contact-map-icon {
+
+    margin-top: 80px;
+}
+
+.contact-map h5 {
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.contact-map h2 {
+
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-map .contact-number h2 {
+
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.contact-map img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.contact-form label {
+
+
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #696f6c;
+    padding-bottom: 5px;
+}
+
+.contact-form input[type="text"] {
+
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    width: 258px;
+    outline: none;
+    transition: .2s linear;
+    margin-bottom: 20px;
+
+}
+
+.contact-form input[type="text"]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form input[type="email"] {
+
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    width: 519px;
+    outline: none;
+    transition: .2s linear;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="email"]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form input[type="number"] {
+
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    width: 519px;
+    outline: none;
+    transition: .2s linear;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="number"]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form textarea {
+
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    color: #666;
+    padding: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    width: 519px;
+    height: 120px;
+    outline: none;
+    transition: .2s linear;
+    margin-bottom: 20px;
+    overflow: auto;
+    resize: both;
+}
+
+.contact-form textarea:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-form input[type="submit"] {
+
+    color: #c29a5c;
+    border: 1px solid #c29a5c;
+    padding: 13px 23px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #fff;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.contact-form input[type="submit"]:hover {
+
+    color: #fff;
+    background: #c29a5c;
+}
+
+.contact-map iframe {
+    width: 1263px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* ================================================= Media queries for Home ============================================ */
+/* ================================================= Media queries for Home ============================================ */
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container2 {
+
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .header .top-main .icon {
+        margin-left: 10px;
+    }
+
+    .header .top-main .button .btn {
+        margin-right: 10px;
+    }
+
+    .header .nav ul li a {
+        font-size: 15px;
+    }
+
+    .header .content h5 {
+        font-size: 15px;
+    }
+
+    .header .content h1 {
+        font-size: 120px;
+    }
+
+    .raj-main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about h5 {
+        font-size: 15px;
+        padding-top: 120px;
+        padding-bottom: 30px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+        line-height: 1.1;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .about .divider {
+        margin-bottom: 30px;
+    }
+
+    .about p {
+
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about .button {
+        margin-bottom: 65px;
+    }
+
+    .immersive img {
+        width: 512px;
+        height: 495px;
+    }
+
+    .immersive h5 {
+
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .immersive h1 {
+        font-size: 44px;
+    }
+
+    .immersive p {
+        font-size: 15px;
+    }
+
+    .raj-vilas h5 {
+        font-size: 15px;
+        padding-top: 70px;
+        padding-bottom: 15px;
+    }
+
+    .raj-vilas h1 {
+        font-size: 55px;
+        padding-bottom: 15px;
+    }
+
+    .raj-vilas p {
+        font-size: 15px;
+    }
+
+    .deluxe h4 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .deluxe {
+        padding-top: 260px;
+    }
+
+    .deluxe-room h4 {
+
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .deluxe-room {
+
+        padding-top: 260px;
+    }
+
+    .royal h4 {
+
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .royal {
+        padding-top: 630px;
+    }
+
+    .heritage h4 {
+
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+
+    .heritage {
+
+        padding-top: 630px;
+    }
+
+    .dining h5 {
+
+        font-size: 15px;
+        padding-top: 60px;
+        padding-bottom: 15px;
+    }
+
+    .dining h1 {
+
+        font-size: 44px;
+        max-width: 859px;
+        line-height: 1.2;
+        padding-bottom: 30px;
+    }
+
+    .special h1 {
+        font-size: 44px;
+        max-width: 399px;
+        line-height: 1.1;
+        padding-left: 10px;
+    }
+
+    .special p {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    .food-img img {
+        width: 1024px;
+        height: 350px;
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .aminitie h1 {
+        font-size: 55px;
+        padding-left: 10px;
+    }
+
+    .aminitie p {
+
+        font-size: 15px;
+        padding-bottom: 65px;
+        padding-right: 10px;
+    }
+
+    .room-dining img {
+        width: 254px;
+        height: 340px;
+    }
+
+    .room-dining h1 {
+
+        padding-top: 23px;
+        padding-bottom: 15px;
+        font-size: 28px;
+    }
+
+    .room-dining p {
+        font-size: 15px;
+        max-width: 217px;
+    }
+
+    .design-img img {
+        width: 1024px;
+        height: 350px;
+    }
+
+    .local h5 {
+        font-size: 15px;
+        padding-top: 65px;
+        padding-bottom: 15px;
+    }
+
+    .local h1 {
+
+        font-size: 50px;
+    }
+
+    .local p {
+
+        font-size: 15px;
+        max-width: 759px;
+    }
+
+    .taj img {
+        width: 256px;
+        height: 186px;
+
+    }
+
+    .taj h1 {
+        font-size: 23px;
+        padding-bottom: 65px;
+    }
+
+    .google-main .icon span {
+
+        font-size: 40px;
+    }
+
+    .google-main .google-content h1 {
+        font-size: 52px;
+    }
+
+    .google-main .google-content h5 {
+        font-size: 14px;
+    }
+
+    .google-main .google-content p {
+        font-size: 15px;
+    }
+
+    .footer img {
+        margin-top: 65px;
+        margin-bottom: 25px;
+
+    }
+
+    .footer .nav ul li a {
+        font-size: 14px;
+    }
+
+    .footer-bottom-main {
+        padding-top: 50px;
+
+    }
+
+    .footer-bottom-left p {
+        padding-left: 10px;
+    }
+
+    .footer-bottom-right p {
+        padding-right: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width:991px) {
+
+    .container {
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+    .header .top-main .logo img {
+        width: 110px;
+    }
+
+    .header .top-main .button .btn {
+
+        padding: 10px 17px;
+        font-size: 13px;
+    }
+
+    .header .nav ul li a {
+        font-size: 13px;
+    }
+
+    .header .nav ul li {
+        display: inline-block;
+        padding-right: 13px;
+    }
+
+    .header .content h5 {
+
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .header .content h1 {
+        font-size: 80px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header .raj-main .logo img {
+
+        width: 90px;
+    }
+
+    .raj-main .paragraph p {
+        font-size: 14px;
+        max-width: 386px;
+        line-height: 1.3;
+        padding-left: 20px;
+    }
+
+    .raj-main .button .btn {
+
+        font-size: 13px;
+        padding: 11px 13px;
+    }
+
+    .about h5 {
+        font-size: 14px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .about h1 {
+        font-size: 35px;
+        line-height: 1.0;
+
+        padding-bottom: 20px;
+    }
+
+    .about .divider {
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about .button .btn {
+
+        font-size: 13px;
+        padding: 11px 19px;
+    }
+
+    .about .button {
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+    .immersive img {
+        width: 384px;
+        height: 420px;
+    }
+
+    .immersive h5 {
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .immersive h1 {
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+
+    .immersive h4 {
+        font-size: 15px;
+        max-width: 314px;
+    }
+
+    .immersive p {
+        font-size: 14px;
+        max-width: 370px;
+        padding-bottom: 30px;
+    }
+
+    .raj-vilas h5 {
+        font-size: 14px;
+        padding-top: 45px;
+        padding-bottom: 10px;
+    }
+
+    .raj-vilas h1 {
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+
+    .raj-vilas p {
+
+        font-size: 14px;
+        max-width: 745px;
+        padding-bottom: 40px;
+    }
+
+    .deluxe h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .deluxe {
+        padding-top: 172px;
+    }
+
+    .deluxe-room h4 {
+
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .deluxe-room {
+
+        padding-top: 172px;
+    }
+
+    .royal h4 {
+
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .royal {
+        padding-top: 445px;
+    }
+
+    .heritage h4 {
+
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .heritage {
+
+        padding-top: 445px;
+    }
+
+    .dining h5 {
+        font-size: 14px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .dining h1 {
+
+        font-size: 35px;
+        max-width: 677px;
+        line-height: 1.1;
+        padding-bottom: 25px;
+    }
+
+    .dining img {
+        margin-bottom: 34px;
+    }
+
+    .special h1 {
+
+        font-size: 40px;
+        max-width: 352px;
+        line-height: 1.0;
+    }
+
+    .special p {
+
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .special .btn {
+
+        font-size: 13px;
+        padding: 10px 17px;
+    }
+
+    .special .btn {
+        margin-top: 25px;
+    }
+
+    .food-img img {
+        width: 768px;
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .aminitie h1 {
+        font-size: 45px;
+    }
+
+    .aminitie p {
+        font-size: 14px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+        line-height: 1.3;
+    }
+
+    .room-dining img {
+        width: 191px;
+        height: 275px;
+    }
+
+    .room-dining h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .room-dining p {
+        font-size: 14px;
+        max-width: 176px;
+        line-height: 1.3;
+        padding-bottom: 15px;
+    }
+
+    .room-dining a {
+        font-size: 13px;
+    }
+
+    .design-img img {
+
+        width: 768px;
+        height: 250px;
+    }
+
+    .local h5 {
+        font-size: 14px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .local h1 {
+        font-size: 40px;
+    }
+
+    .local p {
+        font-size: 14px;
+        max-width: 734px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+
+    .taj img {
+        width: 192px;
+        height: 154px;
+    }
+
+    .taj h1 {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .google-main .icon span {
+        font-size: 30px;
+    }
+
+    .google-main .google-content h1 {
+        font-size: 35px;
+    }
+
+    .google-main .google-content h5 {
+        font-size: 12px;
+    }
+
+    .google-main .google-content p {
+        font-size: 14px;
+        padding-bottom: 40px;
+    }
+
+    .footer img {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .footer .nav ul li a {
+        font-size: 13px;
+    }
+
+    .footer .nav ul li {
+
+        padding-right: 13px;
+    }
+
+    .footer-bottom-left p {
+        font-size: 14px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+
+
+    [class *="col-"] {
+        width: 100%;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+
+    .header .top-main {
+        display: block;
+        text-align: center;
+    }
+
+    .header .top-main .icon {
+
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .header .top-main .logo img {
+        margin-bottom: 15px;
+    }
+
+
+    .header .top-main .button .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .header .nav ul li {
+        padding-right: 0;
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .header .content h5 {
+        font-size: 13px;
+    }
+
+    .header .content h1 {
+        font-size: 45px;
+        padding-bottom: 0;
+    }
+
+
+    .raj-main {
+
+        transform: translateY(50px);
+        display: block;
+    }
+
+    .raj-main .logo {
+        text-align: center;
+    }
+
+    .raj-main .paragraph p {
+        text-align: center;
+        max-width: 174px;
+        font-size: 14px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .raj-main .button {
+        text-align: center;
+
+    }
+
+    .raj-main .button .btn {
+        font-size: 12px;
+        padding: 10px 9px;
+    }
+
+    .about h5 {
+        font-size: 13px;
+        padding-top: 80px;
+        padding-bottom: 15px;
+    }
+
+    .about h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .about .divider {
+        margin-bottom: 10px;
+    }
+
+    .about .button {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about .button .btn {
+        font-size: 12px;
+        padding: 9px 14px;
+    }
+
+    .immersive img {
+        width: 300px;
+        margin-left: 10px;
+        height: 320px;
+        margin-top: 15px;
+    }
+
+    .immersive h5 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .immersive h1 {
+        font-size: 34px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .immersive h4 {
+        font-size: 14px;
+        max-width: 300px;
+        padding-left: 10px;
+    }
+
+    .immersive p {
+        font-size: 14px;
+        max-width: 300px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .immersive a {
+        padding-left: 10px;
+    }
+
+    .raj-vilas h5 {
+        font-size: 13px;
+        padding-top: 21px;
+        padding-bottom: 10px;
+    }
+
+    .raj-vilas h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .raj-vilas p {
+        font-size: 13px;
+        max-width: 300px;
+
+        padding-bottom: 30px;
+    }
+
+    .deluxe {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .deluxe h4 {
+        font-size: 20px;
+
+    }
+
+    .deluxe a {
+        font-size: 13px;
+    }
+
+    .deluxe-room {
+
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .deluxe-room h4 {
+
+        font-size: 20px;
+    }
+
+    .deluxe-room a {
+
+        font-size: 13px;
+    }
+
+    .royal {
+
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 300px;
+    }
+
+    .royal h4 {
+
+        font-size: 20px;
+    }
+
+    .royal a {
+
+        font-size: 13px;
+    }
+
+    .heritage {
+
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 300px;
+    }
+
+    .heritage h4 {
+
+        font-size: 20px;
+    }
+
+    .heritage a {
+
+        font-size: 13px;
+    }
+
+    .dining h5 {
+        font-size: 13px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .dining h1 {
+        font-size: 26px;
+        max-width: 300px;
+        line-height: 1.0;
+        padding-bottom: 20px;
+    }
+
+    .dining img {
+        margin-bottom: 20px;
+    }
+
+    .special h1 {
+        font-size: 28px;
+        max-width: 300px;
+        line-height: 1.0;
+    }
+
+    .special p {
+        font-size: 13px;
+        line-height: 1.3;
+        max-width: 300px;
+        padding-left: 10px;
+        padding-right: 0;
+        padding-top: 10px;
+
+    }
+
+    .special .btn {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .special .btn {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+
+    .food-img img {
+
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .aminitie h1 {
+        font-size: 35px;
+    }
+
+    .aminitie p {
+        padding-bottom: 30px;
+        padding-left: 10px;
+        max-width: 300px;
+        padding-top: 10px;
+        font-size: 13px;
+        padding-right: 0;
+    }
+
+    .room-dining img {
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .room-dining h1 {
+        padding-left: 10px;
+    }
+
+    .room-dining p {
+        padding-left: 10px;
+        max-width: 300px;
+    }
+
+    .room-dining a {
+        padding-left: 10px;
+    }
+
+    .design-img img {
+
+        width: 300px;
+        height: 220px;
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+
+    .local h5 {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .local h1 {
+        font-size: 30px;
+    }
+
+    .local p {
+        font-size: 13px;
+        max-width: 300px;
+        padding-bottom: 25px;
+    }
+
+    .taj img {
+        width: 300px;
+        height: 220px;
+        margin-left: 10px;
+    }
+
+    .taj h1 {
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
+
+    .google-main .icon span {
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .google-main .google-content h1 {
+        font-size: 20px;
+    }
+
+    .google-main .google-content p {
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+
+    .footer img {
+        margin-top: 35px;
+        margin-bottom: 0;
+        width: 100px;
+    }
+
+    .footer .nav ul li {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .footer .nav ul li a {
+        font-size: 12px;
+    }
+
+
+    .footer-bottom-main {
+        padding-top: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-bottom-left p {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+
+    .footer-bottom-icon span {
+        padding-right: 6px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+}
+
+
+
+/* ============================================================ Media queries for History ============================== */
+/* ============================================================ Media queries for History ============================== */
+
+
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container2 {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .history-header .top-main .icon {
+        margin-left: 10px;
+    }
+
+    .history-header .top-main .button .btn {
+        margin-right: 10px;
+    }
+
+    .history-header .nav ul li a {
+        font-size: 15px;
+    }
+
+    .history-header .content h1 {
+        font-size: 100px;
+        padding-top: 40px;
+        padding-bottom: 55px;
+    }
+
+    .history-our h5 {
+        font-size: 15px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .history-our h1 {
+        font-size: 41px;
+        max-width: 925px;
+        padding-bottom: 35px;
+
+    }
+
+    .history-our img {
+        margin-bottom: 35px;
+    }
+
+    .phasellus P {
+        font-size: 15px;
+        padding-left: 10px;
+
+    }
+
+    .phasellus .amet {
+        padding-bottom: 45px;
+    }
+
+    .history-img img {
+        margin-left: 10px;
+
+    }
+
+    .history-img img {
+        margin-left: 10px;
+
+    }
+
+    .history-door-img img {
+        margin-left: 37px;
+        width: 297px;
+    }
+
+    .history-man-img img {
+        margin-bottom: 40px;
+    }
+
+    .dictum p {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .histoty-euismod img {
+
+        margin-top: 45px;
+        margin-bottom: 70px;
+        width: 340px;
+        height: 510px;
+    }
+
+    .history-euismod .cras {
+        padding-top: 45px;
+    }
+
+    .history-euismod p {
+        font-size: 15px;
+    }
+
+    .volutpat-content h5 {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+
+    .volutpat-content h6 {
+        font-size: 15px;
+        padding-bottom: 20px;
+
+    }
+
+    .volutpat-content p {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .container2 {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .history-header {
+        background-position: center;
+    }
+
+    .history-header .top-main .logo img {
+        width: 110px;
+    }
+
+    .history-header .top-main .button .btn {
+
+        padding: 10px 17px;
+        font-size: 13px;
+    }
+
+    .history-header .nav ul li a {
+        font-size: 13px;
+    }
+
+    .history-header .nav ul li {
+        display: inline-block;
+        padding-right: 13px;
+    }
+
+
+
+    .history-header .content h1 {
+        font-size: 80px;
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
+    .history-our h5 {
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .history-our h1 {
+        font-size: 31px;
+        max-width: 698px;
+        padding-bottom: 30px;
+    }
+
+
+    .history-our img {
+        margin-bottom: 25px;
+    }
+
+
+    .phasellus P {
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 636px;
+    }
+
+
+    .phasellus .amet {
+        padding-bottom: 40px;
+    }
+
+
+    .history-img img {
+        width: 235px;
+        height: 174px;
+        margin-top: 45px;
+    }
+
+    .history-man-img img {
+        width: 274px;
+        height: 472px;
+        margin-bottom: 60px;
+    }
+
+    .history-door-img img {
+        margin-left: 27px;
+        width: 222px;
+        height: 409px;
+
+    }
+
+    .history-man-img img{
+       
+        margin-bottom: 35px;
+    }
+
+    .dictum p{
+
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 636px;
+    }
+
+    .histoty-euismod img{
+
+        margin-top: 35px;
+    margin-bottom: 50px;
+    width: 244px;
+    height: 409px;
+    }
+
+    .history-euismod .cras {
+        padding-top: 35px;
+    }
+
+    .history-euismod p {
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 360px;
+    }
+    .volutpat-content h5 {
+        font-size: 14px;
+        padding-top: 25px;
+        max-width: 370px;
+    }
+
+    .volutpat-content h6 {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .volutpat-content p{
+
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width:767px){
+
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .container2 {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class *="col-"]{
+
+        width: 100%;
+    }
+
+    .history-header {
+        background-position: center;
+    }
+
+    .history-header .top-main {
+        display: block;
+        text-align: center;
+    }
+
+    .history-header .top-main .icon {
+
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .history-header .top-main .logo img {
+        margin-bottom: 15px;
+    }
+
+
+    .history-header .top-main .button .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .history-header .nav ul li {
+        padding-right: 0;
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .history-header .content h1 {
+        font-size: 60px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .history-our h5 {
+        font-size: 13px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .history-our h1 {
+        font-size: 25px;
+        max-width: 300px;
+        padding-bottom: 20px;
+    }
+
+
+    .history-our img {
+        margin-bottom: 20px;
+    }
+
+    .phasellus P {
+        font-size: 13px;
+        line-height: 1.5;
+        max-width: 300px;
+    }
+    .phasellus .amet {
+        padding-bottom: 0;
+    }
+    .history-img img{
+        width: 300px;
+        height: 227px;
+        margin-top: 20px;
+    }
+
+    .history-man-img img{
+
+        width: 300px;
+        margin-left: 10px;
+        height: 411px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .history-door-img img{
+
+        margin-left: 10px;
+        width: 300px;
+        height: 345px;
+        margin-top: 20px;
+    }
+
+    .dictum p{
+        font-size: 13px;
+        max-width: 300px;
+    }
+
+    .histoty-euismod img{
+        margin-left: 10px;
+        width: 300px;
+        height: 420px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+    .history-euismod .cras {
+        padding-top: 20px;
+    }
+
+    .history-euismod p{
+        font-size: 13px;
+        max-width: 300px;
+        padding-left: 10px;
+    }
+
+    .volutpat-content h5 {
+        font-size: 14px;
+        padding-top: 15px;
+        max-width: 300px;
+        padding-left: 10px;
+    }
+    .volutpat-content h6{
+        padding-left: 10px;
+    }
+
+    .volutpat-content p{
+        padding-left: 10px;
+        max-width: 300px;
+        padding-bottom: 20px;
+    }
+
+    .google-main .icon span{
+        font-size: 20px;
+    }
+
+    .google-main .google-content h1 {
+        font-size: 18px;
+    }
+    .google-main .google-content p{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+/* ===================================================== Media queries for experience ======================================= */
+/* ===================================================== Media queries for experience ======================================= */
+
+
+@media screen and (max-width:1024px){
+    
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container2{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container3{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .exp-not h1{
+        font-size: 40px;
+        padding-top: 40px;
+    padding-bottom: 30px;
+    }
+
+    .exp-immersive img {
+        width: 1004px;
+        height: 640px;
+        margin-top: 35px;
+        margin-left: 10px;
+        height: 600px;
+    }
+
+    .exp-immersive h6{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+     }
+
+     .exp-immersive h1{
+        font-size: 30px;
+        padding-left: 10px;
+     }
+     .exp-immersive h5{
+        padding-top: 20px;
+        font-size: 15px;
+        padding-bottom: 10px;
+     }
+     .exp-immersive p{
+
+        font-size: 15px;
+        max-width: 570px;
+    padding-bottom: 20px;
+     }
+
+     .exp-explore {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+@media screen and (max-width:991px){
+  
+
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .container2{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .container3{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .exp-not h1 {
+        font-size: 30px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .exp-immersive img{
+        margin-top: 30px;
+        width: 748px;
+        height: 475px;
+    }
+    .exp-immersive h6{
+        font-size: 14px;
+
+    }
+    .exp-immersive h1{
+        font-size: 25px;
+
+    }
+    .exp-immersive h5{
+        font-size: 14px;
+        max-width: 496px;
+
+    }
+
+    .exp-immersive p{
+        font-size: 14px;
+        max-width: 488px;
+    }
+    
+    .exp-immersive a{
+        font-size: 13px;
+
+    }
+
+    .exp-explore {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media screen and (max-width:767px){
+
+
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .container2{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .container3{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class *="col-"]{
+
+        width: 100%;
+    }
+
+    .exp-not h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .exp-immersive img{
+        margin-top: 20px;
+        width: 300px;
+        height: 210px;
+    }
+
+
+
+    .exp-immersive h6 {
+        font-size: 13px;
+    }
+
+    .exp-immersive h1 {
+        font-size: 23px;
+    }
+
+    .exp-immersive h5 {
+        font-size: 13px;
+        max-width: 300px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .exp-immersive p {
+        font-size: 13px;
+        max-width: 300px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .exp-immersive a{
+        padding-left: 10px;
+    }
+
+    .exp-explore {
+        margin-bottom: 25px;
+    }
+         
+}
+
+
+/* ============================================ Media queries for Room ======================================================= */
+/* ============================================ Media queries for Room ======================================================= */
+
+
+
+
+@media screen and (max-width:1024px){
+
+
+
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .room-raj h1{
+        font-size: 50px;
+        padding-top: 60px;
+    padding-bottom: 15px;
+    }
+
+    .room-raj p{
+
+        font-size: 15px;
+        max-width: 750px;
+    }
+    
+    .room-executive img{
+        width: 512px;
+        margin-top: 45px;
+        height: 360px;
+    }
+
+    .room-executive h1{
+        font-size: 25px;
+        padding-left: 10px;
+
+    }
+
+    .room-executive p{
+        font-size: 15px;
+        padding-left: 10px;
+        line-height: 1.4;
+        max-width: 498px;
+        padding-bottom: 15px;
+
+    }
+
+    .room-space-main .room-space-icon span{
+        margin-left: 10px;
+    }
+
+    .room-book {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+
+    .room-book-link {
+        padding-bottom: 80px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+        
+
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .room-raj h1 {
+        font-size: 40px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .room-raj p {
+        font-size: 14px;
+        max-width: 700px;
+    }
+
+
+    .room-executive img {
+        width: 384px;
+        margin-top: 40px;
+        height: 280px;
+    }
+
+    .room-executive h1{
+        font-size: 20px;
+    }
+
+    .room-executive p{
+        font-size: 14px;
+        max-width: 370px;
+    }
+
+    .room-space-main .room-space-icon span{
+        font-size: 14px;
+    }
+    .room-space-main .room-space-content p{
+        font-size: 12px;
+    }
+
+    .room-book a{
+        font-size: 13px;
+    }
+
+    .room-book-link {
+        padding-bottom: 55px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px){
+        
+
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+
+    .room-raj h1 {
+        font-size: 30px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .room-raj p{
+        font-size: 13px;
+        max-width: 300px;
+    }
+
+    .room-executive img{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 300px;
+        height: 230px;
+
+    }
+
+    .room-book-link {
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+/* ======================================================== Media queries for Dining ============================================ */
+/* ======================================================== Media queries for Dining ============================================ */
+
+
+@media screen and (max-width: 1024px){
+     
+
+
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .dining-gourmet h1{
+        font-size: 45px;
+        padding-top: 55px;
+    padding-bottom: 15px;
+    }
+
+    .dining-gourmet p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    max-width: 749px;
+    }
+
+    .dining-squre img {
+        width: 657px;
+        height: 455px;
+        margin-top: 50px;
+    }
+
+    .dining-squre-content h1{
+        font-size: 44px;
+    }
+
+    .dining-squre-content p{
+
+        font-size: 15px;
+        padding-bottom: 25px;
+    max-width: 436px;
+    }
+
+    .dining-squre-terrace-img img {
+        width: 683px;
+        height: 455px;
+        margin-top: 50px;
+    }
+
+    .dining-squre-terrace h1{
+
+        font-size: 44px;
+    }
+    .dining-squre-terrace p{
+
+        font-size: 15px;
+        padding-bottom: 25px;
+    max-width: 436px;
+    }
+
+    .dining-squre-terrace{
+        width: 506px;
+    }
+
+    .dining-squre-hotel-img {
+        margin-bottom: 100px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px){
+
+
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .dining-gourmet h1 {
+        font-size: 35px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    .dining-gourmet p {
+        font-size: 14px;
+        padding-bottom: 15px;
+        max-width: 586px;
+    }
+
+    .dining-squre img {
+        width: 525px;
+        height: 375px;
+        margin-top: 35px;
+    }
+
+    .dining-squre-content h1 {
+        font-size: 35px;
+    }
+
+    .dining-squre-content p {
+        font-size: 13px;
+        padding-bottom: 15px;
+        max-width: 300px;
+    }
+    .dining-squre-content{
+        margin-top: 99px;
+    }
+    .dining-squre-content a{
+        font-size: 13px;
+    }
+
+    .dining-squre-terrace-img img {
+        width: 512px;
+        height: 375px;
+        margin-top: 35px;
+    }
+    .dining-squre-terrace h1{
+
+        font-size: 35px;
+    }
+
+    .dining-squre-terrace p{
+         
+        font-size: 13px;
+        padding-bottom: 15px;
+        max-width: 300px;
+    }
+
+    .dining-squre-terrace a{
+
+        font-size: 13px;
+    }
+
+    .dining-squre-terrace {
+        width: 359px;
+        margin-top: 100px;
+    }
+
+    .dining-squre-hotel-img {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+
+    [class *="col-"]{
+        width: 100%;
+    }
+
+    .dining-gourmet h1 {
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .dining-gourmet p{
+
+        font-size: 13px;
+        max-width: 300px;
+    }
+    .dining-squre img {
+        width: 300px;
+        height: 230px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .dining-squre-content {
+        margin-top: 20px;
+        margin-left: 10px;
+        transform: translateX(0);
+        margin-right: 10px;
+}
+
+     .dining-squre-content h1 {
+        font-size: 30px;
+}
+
+.dining-squre-content p {
+    font-size: 13px;
+    padding-bottom: 14px;
+    max-width: 300px;
+}
+.dining-squre-terrace {
+    width: 300px;
+    margin-top: 20px;
+    transform: translateX(0);
+    margin-left: 10px;
+}
+
+.dining-squre-terrace h1 {
+  
+    font-size: 25px;
+        
+}
+
+.dining-squre-terrace p{
+      
+    font-size: 13px;
+    padding-bottom: 14px;
+    max-width: 300px;
+}
+
+.dining-squre-terrace-img img {
+    width: 300px;
+        height: 230px;
+        margin-top: 30px;
+        margin-left: 10px;
+}
+
+.dining-squre-hotel-img {
+    margin-bottom: 0;
+}
+
+.dining-squre img{
+    margin-top: 20px;
+}
+
+.dining-squre-content{
+    margin-bottom: 20px;
+}
+
+}
+
+
+/* ======================================================= Media queries for Gallary ============================================= */
+/* ======================================================= Media queries for Gallary ============================================= */
+
+@media screen and (max-width: 1024px){
+
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .gallary-header-img img {
+        width: 322px;
+    height: 207px;
+        transform: translateY(86px);
+        margin-left: 10px;
+    }
+
+    .gallary-img img{
+        margin-top: 100px;
+        width: 322px;
+        height: 207px;
+        margin-left: 10px;
+    }
+
+    .gallary-middle-img img {
+        width: 322px;
+        height: 207px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .gallary-bottom-img {
+        margin-bottom: 65px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .gallary-header-img img{
+
+        width: 239px;
+    height: 170px;
+    transform: translateY(50px);
+    }
+
+    .gallary-img img{
+        margin-top: 63px;
+        width: 239px;
+    height: 170px;
+    }
+
+    .gallary-middle-img img{
+        margin-top: 13px;
+
+        width: 239px;
+        height: 170px;
+
+    }
+
+    .gallary-bottom-img {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px){
+
+
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+  
+    [class *="col-"]{
+
+        width: 100%;
+    }
+
+    .gallary-header-img img{
+        width: 300px;
+        height: 220px;
+        margin-bottom: 15px;
+    }
+
+    .gallary-img img{
+         
+        width: 300px;
+        height: 220px;
+    }
+
+    .gallary-img img{
+        margin-top: 45px;
+    }
+
+    .gallary-middle-img img{
+          
+        width: 300px;
+        height: 220px;
+    }
+
+
+}
+
+
+
+
+/* ================================================== Media queries for Contact ================================================= */
+/* ================================================== Media queries for Contact ================================================= */
+
+@media screen and (max-width: 1024px){
+      
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .contact-map .contact-map-icon {
+        margin-top: 50px;
+    }
+
+    .contact-map .contact-map-icon span{
+        font-size: 20px;
+    }
+    .contact-map h5{
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .contact-map h2{
+        font-size: 28px;
+    }
+
+    .contact-map .contact-number h2{
+
+        font-size: 28px;
+    }
+
+    .contact-map img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-form label{
+        padding-left: 10px;
+    }
+
+    .contact-form input[type="text"]{
+        margin-left: 10px;
+
+    }
+
+    .contact-form input[type="email"]{
+        margin-left: 10px;
+
+    }
+
+    .contact-form input[type="number"]{
+        margin-left: 10px;
+    }
+    .contact-form textarea{
+        margin-left: 10px;
+    }
+    .contact-form input[type="submit"]{
+        margin-left: 10px;
+    }
+
+    .contact-map iframe {
+        width: 1024px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+
+
+    .container{
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .contact-map .contact-map-icon {
+        margin-top: 40px;
+    }
+
+    .contact-map h5{
+        font-size: 13px;
+    }
+
+    .contact-map h2 {
+        font-size: 24px;
+    }
+    .contact-map .contact-number h2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .contact-map img{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .contact-form label{
+        font-size: 15px;
+    }
+    .contact-form input[type="text"]{
+        padding: 8px;
+        width: 227px;
+    }
+    .contact-form input[type="email"]{
+         
+        padding: 8px;
+        width: 469px;
+    }
+
+    .contact-form input[type="number"]{
+         
+        padding: 8px;
+        width: 469px;
+    }
+    .contact-form textarea{
+         
+        padding: 8px;
+        width: 469px;
+        height: 100px;
+    }
+    .contact-form input[type="submit"]{
+
+        padding: 11px 21px;
+        font-size: 13px;
+    }
+
+    .contact-map iframe {
+        width: 768px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        height: 300px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px){
+
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container2{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    
+    .container3{
+        
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class *="col-"]{
+        width: 100%;
+    }
+
+    .contact-map .contact-map-icon span {
+        font-size: 18px;
+    }
+
+    .contact-map .contact-map-icon {
+        margin-top: 30px;
+    }
+
+    .contact-map h5 {
+        font-size: 12px;
+    }
+
+    .contact-map h2 {
+        font-size: 17px;
+    }
+    .contact-map .contact-number h2{
+
+        font-size: 17px;
+    }
+
+    .contact-map img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form label {
+        font-size: 14px;
+    }
+    .contact-form input[type="text"] {
+        padding: 6px;
+        width: 143px;
+        font-size: 14px;
+    }
+
+    .contact-form input[type="email"]{
+
+        padding: 6px;
+       width: 300px;
+        font-size: 14px;
+    }
+
+    .contact-form input[type="number"]{
+         
+
+        padding: 6px;
+        width: 300px;
+         font-size: 14px;
+    }
+
+    .contact-form textarea{
+
+        padding: 6px;
+        width: 300px;
+         font-size: 14px;
+         height: 90px;
+    }
+
+    .contact-form input[type="submit"] {
+        padding: 9px 15px;
+        font-size: 12px;
+    }
+
+    .contact-map iframe {
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 220px;
+        margin-left: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?42848675');
+    src: url('../font/fontello.eot?42848675#iefix') format('embedded-opentype'),
+        url('../font/fontello.svg?42848675#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('data:application/octet-stream;base64,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') format('woff'),
+        url('data:application/octet-stream;base64,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YbACJUZhOCMgPCM4GyEgIEYjR7ABKyNhOCFZsTABFCstsEcssQA6Ky6xMAEUKy2wSCyxADsrISMgIDywBiNCIzixMAEUK7AGQy6wMCstsEkssAAVIEewACNCsgABARUUEy6wNiotsEossAAVIEewACNCsgABARUUEy6wNiotsEsssQABFBOwNyotsEwssDkqLbBNLLAAFkUjIC4gRoojYTixMAEUKy2wTiywCiNCsE0rLbBPLLIAAEYrLbBQLLIAAUYrLbBRLLIBAEYrLbBSLLIBAUYrLbBTLLIAAEcrLbBULLIAAUcrLbBVLLIBAEcrLbBWLLIBAUcrLbBXLLMAAABDKy2wWCyzAAEAQystsFksswEAAEMrLbBaLLMBAQBDKy2wWyyzAAABQystsFwsswABAUMrLbBdLLMBAAFDKy2wXiyzAQEBQystsF8ssgAARSstsGAssgABRSstsGEssgEARSstsGIssgEBRSstsGMssgAASCstsGQssgABSCstsGUssgEASCstsGYssgEBSCstsGcsswAAAEQrLbBoLLMAAQBEKy2waSyzAQAARCstsGosswEBAEQrLbBrLLMAAAFEKy2wbCyzAAEBRCstsG0sswEAAUQrLbBuLLMBAQFEKy2wbyyxADwrLrEwARQrLbBwLLEAPCuwQCstsHEssQA8K7BBKy2wciywABaxADwrsEIrLbBzLLEBPCuwQCstsHQssQE8K7BBKy2wdSywABaxATwrsEIrLbB2LLEAPSsusTABFCstsHcssQA9K7BAKy2weCyxAD0rsEErLbB5LLEAPSuwQistsHossQE9K7BAKy2weyyxAT0rsEErLbB8LLEBPSuwQistsH0ssQA+Ky6xMAEUKy2wfiyxAD4rsEArLbB/LLEAPiuwQSstsIAssQA+K7BCKy2wgSyxAT4rsEArLbCCLLEBPiuwQSstsIMssQE+K7BCKy2whCyxAD8rLrEwARQrLbCFLLEAPyuwQCstsIYssQA/K7BBKy2whyyxAD8rsEIrLbCILLEBPyuwQCstsIkssQE/K7BBKy2wiiyxAT8rsEIrLbCLLLILAANFUFiwBhuyBAIDRVgjIRshWVlCK7AIZbADJFB4sQUBFUVYMFktAEu4AMhSWLEBAY5ZsAG5CAAIAGNwsQAHQrEAACqxAAdCsQAKKrEAB0KxAAoqsQAHQrkAAAALKrEAB0K5AAAACyq5AAMAAESxJAGIUViwQIhYuQADAGREsSgBiFFYuAgAiFi5AAMAAERZG7EnAYhRWLoIgAABBECIY1RYuQADAABEWVlZWVmxAA4quAH/hbAEjbECAESzBWQGAERE') format('truetype');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?42848675#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-box:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-sun-filled:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-location:before {
+    content: '\e802';
+}
+
+/* '' */
+.icon-cc:before {
+    content: '\e803';
+}
+
+/* '' */
+.icon-fast-food:before {
+    content: '\e815';
+}
+
+/* '' */
+.icon-twitter:before {
+    content: '\f099';
+}
+
+/* '' */
+.icon-youtube-play:before {
+    content: '\f16a';
+}
+
+/* '' */
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+/* '' */
+.icon-right:before {
+    content: '\f178';
+}
+
+/* '' */
+.icon-google:before {
+    content: '\f1a0';
+}
+
+/* '' */
+.icon-wifi:before {
+    content: '\f1eb';
+}
+
+/* '' */
+.icon-bed:before {
+    content: '\f236';
+}
+
+/* '' */
+.icon-tripadvisor:before {
+    content: '\f262';
+}
+
+/* '' */
+.icon-facebook-circled:before {
+    content: '\f30d';
+}
+
+/* '' */
