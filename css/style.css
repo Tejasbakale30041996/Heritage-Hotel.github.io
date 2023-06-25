@@ -100,7 +100,7 @@ body {
 
 .header {
 
-    background: url(../../img/heritage-hotel-hero-img-bg.jpg) no-repeat;
+    background: url(../img/heritage-hotel-hero-img-bg.jpg) no-repeat;
     background-size: cover;
     padding-top: 10px;
     position: relative;
@@ -456,7 +456,7 @@ body {
 }
 
 .deluxe {
-    background: url(../../img/heritage-hotel-room-suite-img-1.jpg) no-repeat;
+    background: url(../img/heritage-hotel-room-suite-img-1.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 330px;
@@ -506,7 +506,7 @@ body {
 
 .deluxe-room {
 
-    background: url(../../img/heritage-hotel-room-suite-img-2.jpg) no-repeat;
+    background: url(../img/heritage-hotel-room-suite-img-2.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 330px;
@@ -558,7 +558,7 @@ body {
 
 .royal {
 
-    background: url(../../img/heritage-hotel-room-suite-img-3.jpg) no-repeat;
+    background: url(../img/heritage-hotel-room-suite-img-3.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 779px;
@@ -610,7 +610,7 @@ body {
 
 .heritage {
 
-    background: url(../../img/heritage-hotel-room-suite-img-4.jpg) no-repeat;
+    background: url(../img/heritage-hotel-room-suite-img-4.jpg) no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 779px;
